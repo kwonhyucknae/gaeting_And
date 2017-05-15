@@ -1,0 +1,9 @@
+<resources>
+<string name="app_name">개팅</string>
+<string name="ftp_url">192.168.0.37</string>
+<string name="ftp_port">10680</string>
+<string name="http_url">http://192.168.0.37:8080/gaetingdev</string>
+<string name="facebook_app_id">1202179366511213</string>
+<string name="kakao_app_key">0e8c7688fb11611435484ac4bfc5d975</string>
+<string name="text_for_login_kakao_account">Log in with Kakao</string>
+</resources>

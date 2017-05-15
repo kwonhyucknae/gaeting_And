@@ -1,0 +1,78 @@
+package com.gaetingdev.m.gaetingdev.Main.Contents.Adaption;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.Spinner;
+
+import com.androidquery.callback.AjaxCallback;
+import com.gaetingdev.m.gaetingdev.Framework.DB.UseDB;
+import com.gaetingdev.m.gaetingdev.Main.Ajax.MainAjax;
+import com.gaetingdev.m.gaetingdev.R;
+
+import org.json.JSONArray;
+
+/**
+ * Created by 권혁내 on 2016-11-05.
+ */
+public class Write_Adaption extends Activity{
+
+    private MainAjax ajax;
+    private EditText dogtype;
+    private EditText title;
+    private EditText age;
+    private EditText price;
+    private EditText pluslotate;
+    private EditText note;
+    private Button btnok;
+    private RadioGroup rg;
+    private RadioButton genderrb;
+    private Spinner locationspi;
+
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.write_adaption);
+
+        rg=(RadioGroup)findViewById(R.id.adaption_write_rg);
+        genderrb=(RadioButton)findViewById(rg.getCheckedRadioButtonId());
+
+        String[] str=getResources().getStringArray(R.array.spinnerArray);
+        ArrayAdapter<String> adapter=new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,str);
+        locationspi=(Spinner)findViewById(R.id.locationSpinner);
+        locationspi.setAdapter(adapter);
+        dogtype=(EditText)findViewById(R.id.adaption_wirte_dog_type_et);
+        title=(EditText)findViewById(R.id.adaption_write_title_et);
+        age=(EditText)findViewById(R.id.adaption_write_dog_age_et);
+        price=(EditText)findViewById(R.id.adaption_write_price_et);
+        pluslotate=(EditText)findViewById(R.id.adaption_write_plus_lotation);
+        note=(EditText)findViewById(R.id.adaption_write_note_et);
+
+        btnok=(Button)findViewById(R.id.adaption_write_OK);
+
+        btnok.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                UseDB db=new UseDB(Write_Adaption.this);
+
+                String writer=db.getID();
+                String genderst=genderrb.getText().toString();
+                String dogtp=dogtype.getText().toString();
+                String tt=title.getText().toString();
+                String ag=age.getText().toString();
+                String pri=price.getText().toString();
+                String pll=pluslotate.getText().toString();
+                String nt=note.getText().toString();
+
+                Integer ppri=Integer.parseInt(pri);
+
+                ajax.writeAdaption(writer,dogtp,genderst,tt,ag,ppri,pll,nt,new AjaxCallback<JSONArray>(){});
+
+            }
+        });
+    }
+}

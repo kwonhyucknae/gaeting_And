@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/listview_imageview"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/listview_Nickname"
+            android:textSize="12dp"
+            android:gravity="center_vertical"
+            />
+        <TextView
+            android:text="New Text"
+            android:id="@+id/listview_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@android:drawable/btn_star" />
+        <TextView
+            android:text="0"
+            android:id="@+id/listview_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:src="@drawable/kakao_account_logo" />
+        <TextView
+            android:text="0"
+            android:id="@+id/listview_retv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

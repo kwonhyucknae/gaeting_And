@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_0d0788df2156738e8d5d00567b7004c05c541dbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="23c7c34bfb3cdc0599d49e581486b179bc6b2eee">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.facebook.android-facebook-android-sdk-4.17.0_cacdd32830107f31da2df37e454bbf26a2e7c9bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_e4622e25c977f9c94932f9eb869cf85c80c2c8bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_098f2a7e92ced2d49249d5a032327d4a4a9d6878.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_3435e5860411cea4fc095c1394990f86141e8865.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.0.0_07bff14a469eb03663cb1819fa580338ffad3903.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ad352a87eb5681e58accffa7b409e1fdb50838ae">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\instant-run_badbb60760db21fd9e43f16b9323ba7bbb68dc19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_3b8c19e31d23ffb9c2b7226e3b21300d6cd90f81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.kakao.sdk\kakaostory\1.1.22\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5603a10037dd7ef1c71dae0611336e15673ab306">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.kakao.sdk-kakaostory-1.1.22_2872cd14eae80890d4f0670c4c9f431630876c56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.android.support-customtabs-25.0.0_6c85226c1efe7624c2a2fef63f74cf29497f39da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\권혁내\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.8\ec0f15c77ddd390e5ac514ac72ebbb9f2e0e31e2\library-1.0.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ec0f15c77ddd390e5ac514ac72ebbb9f2e0e31e2">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\library-1.0.8_19b5c8b77d02442c4fecb6b082d297d0469b0d20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.kakao.sdk\usermgmt\1.1.22\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3df07866f75282eb0a0f939715cd56edf83bd2ab">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.kakao.sdk-usermgmt-1.1.22_381b2afb2a2983dee6ff3b17ff006151e6a6e268.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_9fa00ed63a71ac562ca5727b8d900d6883e6695d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\권혁내\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_10b46dd32b1c3bd061489be59de6ca0e874fb456.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5f16ac26a3bf39ced65ae9d596896cf760bb173b">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_8c7f7c08de5df30f174a33025c9ae6e965139d8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Users\kwon\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_2ee4da0c3e68003f221ea98ba5b4de2c95e48de0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_32a4bc86070ec5fdab7b15aec6caccaf0e004f60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.kakao.sdk\auth\1.1.22\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="00f94f3e3e58b8d91a9a01ce76435a6712b3d508">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.kakao.sdk-auth-1.1.22_9093bffc1c24de9434a064b540781e80401f30bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_4615b36f273370ccf40643958b4ee9e7c6ec7abf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_caf5f064220d29a9ffa71158d8ff86bd45492975.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\권혁내\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_fe12f9e778f24a0809277d9077304d38ead58fda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\권혁내\.gradle\caches\modules-2\files-2.1\com.googlecode.android-query\android-query\0.25.9\fff82e4e1e56b60d6eb1d5487dbd3d3b526b635f\android-query-0.25.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fff82e4e1e56b60d6eb1d5487dbd3d3b526b635f">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\android-query-0.25.9_c26510603179ea11356ddb53f693998fb912a10a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_edc81d374d29fd453f5376c35879739c749ecbab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.kakao.sdk\network\1.1.22\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="75c582f6e7f47eacfc5fbb0000d3976098ea04a5">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.kakao.sdk-network-1.1.22_c4f45e20abdb87b5f3c6eefca42dd33372b58768.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_b43af27429ce2cb0c48085846d8d66d2d9d34e41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_8ad01218b11e494948ef3e982358a432174332b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_50b7c942b9a317ff49ce259cb86d9447fa9552cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_99b78a85c7cdec8754291c01a75ae61f018f6a80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.kakao.sdk\friends\1.1.22\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cf5671980caa045b7fe528af5fb782e4d9a440aa">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.kakao.sdk-friends-1.1.22_89c0dd624eed54eea3388e847cc05f7c3628b7ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\exploded-aar\com.kakao.sdk\util\1.1.22\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e0abf2cd73bc54e2b792967254c5d24fd1b738ce">
+        <dex dex="D:\AndroidSvnworkspace\Testsvnworkspa\app\build\intermediates\pre-dexed\debug\com.kakao.sdk-util-1.1.22_2ba62c2b9c2731d56f5154f38414c2048bf2f8c8.jar" />
+    </item>
+
+</items>

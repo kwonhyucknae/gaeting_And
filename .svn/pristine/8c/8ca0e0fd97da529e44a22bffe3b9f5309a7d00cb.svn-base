@@ -1,0 +1,76 @@
+package com.gaetingdev.m.gaetingdev.Main.Contents.Adaption;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.util.Log;
+import android.widget.TextView;
+
+import com.androidquery.callback.AjaxCallback;
+import com.androidquery.callback.AjaxStatus;
+import com.gaetingdev.m.gaetingdev.Main.Ajax.MainAjax;
+import com.gaetingdev.m.gaetingdev.R;
+
+import org.json.JSONArray;
+
+/**
+ * Created by 권혁내 on 2016-11-05.
+ */
+public class Read_Adaption extends Activity {
+
+    private static String sLog="Read_Adaption";
+    private MainAjax ajax;
+    private TextView readID;
+    int test=17;
+/*
+    *글 읽기 를 클릭하면
+    *글 번호를 받아와야한다.
+    * 아직 구현 안함
+ */
+
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.read_adaption);
+
+        ajax=new MainAjax(this);
+
+        readID=(TextView)findViewById(R.id.adaption_read_ID_et);
+
+        ajax.readAdaption(test,new AjaxCallback<JSONArray>()
+        {
+            @Override
+            public void callback(String url, JSONArray object, AjaxStatus status)
+            {
+             if(object !=null)
+             {
+                 try{
+                 if(object.length()!=0)
+                 {
+                     String test=object.getJSONObject(0).toString();
+                     readID.setText(test);
+
+                 }else
+                 {
+                     readID.setText("결과값이 없어.");
+                 }
+                 }catch (Exception e)
+                 {
+                     Log.e(sLog,e.getMessage());
+                 }
+             }else
+             {
+                 readID.setText("object 가 null이야");
+             }
+            }
+
+        });
+
+
+    }
+}
+
+
+/*11월 8일 2:03  수정할점
+1.ajax.writeAdaption 사용시에 한글을 사용하면 데이터베이스에 저장이 안된다.
+2.상세내용 (Context) 가 추가가 안된다 아무래도 String을 사용해서?
+3.강아지 ID 받아오기를 아직 못함
+*/

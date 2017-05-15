@@ -1,0 +1,80 @@
+package com.gaetingdev.m.gaetingdev.Register;
+
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import com.androidquery.AQuery;
+import com.androidquery.callback.AjaxCallback;
+import com.gaetingdev.m.gaetingdev.Main.Ajax.MainAjax;
+import com.gaetingdev.m.gaetingdev.R;
+
+import org.json.JSONArray;
+
+public class checkout extends AppCompatActivity {
+
+    private static String sLog = "MainActivity";
+    private MainAjax ajax;
+    AQuery aqt;
+    private EditText ID_et;
+    private EditText Pw_et;
+    private EditText Ag_et;
+    private TextView fir_tv;
+    private Button bt;
+    int logintype;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.checkout);
+
+        SharedPreferences pref= getSharedPreferences("setpreference", MODE_PRIVATE);
+        SharedPreferences.Editor editor = pref.edit();
+        logintype=pref.getInt("logintype",0);
+
+
+        ajax = new MainAjax(this);
+        ID_et=(EditText)findViewById(R.id.et_message);
+        Pw_et=(EditText)findViewById(R.id.pas_message);
+        Ag_et=(EditText)findViewById(R.id.age_message);
+        bt=(Button)findViewById(R.id.btn_sendData);
+        fir_tv=(TextView)findViewById(R.id.firstchotTV);
+
+        if(logintype==1)
+        {
+            ID_et.setVisibility(View.GONE);
+            fir_tv.setVisibility(View.GONE);
+        }
+
+        bt.setOnClickListener(new View.OnClickListener() //버튼을 클릭해주면
+        {
+            @Override
+            public void onClick(View v)
+            {
+                String ID=ID_et.getText().toString();    //EditText로 받아온 글자를 ID 값에 넣어준다.
+                String Pw= Pw_et.getText().toString();
+                String Ag=Ag_et.getText().toString();
+
+                ajax.setCustomerInfo(ID,Pw,Ag,new AjaxCallback<JSONArray>()  //받아온 글자를 넘겨준다.
+                {
+                    public void callback(String url,JSONArray object,AjaxCallback status)
+                    {                                       //callback은 다시 받아올 데이터가 아직 필요없으므로 생략 시켜준다.
+                        if(object !=null)
+                        {
+                            try
+                            {}catch(Exception e)
+                            {}
+                        }
+                        else
+                        {}
+                    }
+                });
+            }
+        });
+    }
+}

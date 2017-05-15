@@ -1,0 +1,282 @@
+package com.gaetingdev.m.gaetingdev.Main.Contents.Adaption;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.util.Log;
+import android.widget.TextView;
+
+import com.androidquery.callback.AjaxCallback;
+import com.androidquery.callback.AjaxStatus;
+import com.gaetingdev.m.gaetingdev.Main.Ajax.MainAjax;
+import com.gaetingdev.m.gaetingdev.R;
+
+import org.json.JSONArray;
+
+/**
+ * Created by 권혁내 on 2016-11-05.
+ */
+public class Read_Adaption extends Activity {
+
+    private static String sLog="Read_Adaption";
+    private MainAjax ajax;
+    private TextView readID;
+    private TextView readDogAge;
+    private TextView readHit;
+    private TextView readDate;
+    private TextView readLocate;
+    private TextView readPrice;
+    private TextView readContext;
+    private TextView readDogType;
+
+    int test=20;
+/*
+    test 가 글 번호 대용으로 쓰이고잇음
+    *글 읽기 를 클릭하면
+    *글 번호를 받아와야한다.
+    * 아직 구현 안함
+ */
+
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.read_adaption);
+
+        ajax=new MainAjax(this);
+        readDogAge=(TextView)findViewById(R.id.adaption_read_dog_age);
+        readID=(TextView)findViewById(R.id.adaption_read_ID_et);
+        readHit=(TextView)findViewById(R.id.adaption_read_hit);
+        readDate=(TextView)findViewById(R.id.adaption_read_date);
+        readLocate=(TextView)findViewById(R.id.adaption_read_location);
+        readPrice=(TextView)findViewById(R.id.adaption_read_price);
+        readContext=(TextView)findViewById(R.id.adaption_read_note_et);
+        readDogType=(TextView)findViewById(R.id.adaption_read_dog_type_et);
+
+        ajax.readAdaption(test,new AjaxCallback<JSONArray>()
+        {
+            @Override
+            public void callback(String url, JSONArray object, AjaxStatus status)
+            {
+             if(object !=null)
+             {
+                 try{
+                 if(object.length()!=0)
+                 {
+                     String test=object.getJSONObject(0).toString();
+                     readID.setText(test);
+
+                 }else
+                 {
+                     readID.setText("결과값이 없어.");
+                 }
+                 }catch (Exception e)
+                 {
+                     Log.e(sLog,e.getMessage());
+                 }
+             }else
+             {
+                 readID.setText("object 가 null이야");
+             }
+            }
+
+        });
+        ajax.readAdaptionDogtype(test,new AjaxCallback<JSONArray>()
+        {
+            @Override
+            public void callback(String url,JSONArray object,AjaxStatus status)
+            {
+                if(object !=null)
+                {
+                    try{
+                        if(object.length()!=0)
+                        {
+                            String dogt=object.getJSONObject(0).toString();
+                            readDogType.setText(dogt);
+
+                        }else
+                        {
+                            readDogType.setText("결과값이 없어.");
+                        }
+                    }catch(Exception e)
+                    {
+                        Log.e(sLog,e.getMessage());
+                    }
+                }else
+                {
+                    readDogType.setText("object가 null이야");
+                }
+            }
+        });
+
+        ajax.readAdaptionDogAge(test,new AjaxCallback<JSONArray>()
+        {
+            @Override
+            public void callback(String url,JSONArray object,AjaxStatus status)
+            {
+                if(object !=null)
+                {
+                    try{
+                        if(object.length()!=0)
+                        {
+                            String test=object.getJSONObject(0).toString();
+                            readDogAge.setText(test);
+
+                        }else
+                        {
+                            readDogAge.setText("결과값이 없어.");
+                        }
+                    }catch(Exception e)
+                    {
+                        Log.e(sLog,e.getMessage());
+                    }
+                }else
+                {
+                    readDogAge.setText("object가 null이야");
+                }
+            }
+        });
+        ajax.readAdaptionHit(test,new AjaxCallback<JSONArray>()
+        {
+            @Override
+            public void callback(String url,JSONArray object,AjaxStatus status)
+            {
+                if(object !=null)
+                {
+                    try{
+                        if(object.length()!=0)
+                        {
+                            String readhit=object.getJSONObject(0).toString();
+                            readHit.setText(readhit);
+
+                        }else
+                        {
+                            readHit.setText("결과값이 없어.");
+                        }
+                    }catch (Exception e)
+                    {
+                        Log.e(sLog,e.getMessage());
+                    }
+                }else
+                {
+                    readHit.setText("object가 null이야");
+                }
+            }
+        });
+        ajax.readAdaptionDate(test,new AjaxCallback<JSONArray>()
+        {@Override
+        public void callback(String url,JSONArray object,AjaxStatus status)
+        {
+            if(object !=null)
+            {
+                try{
+                    if(object.length()!=0)
+                    {
+                        String rd=object.getJSONObject(0).toString();
+                        readDate.setText(rd);
+
+                    }else
+                    {
+                        readDate.setText("결과값이 없어.");
+                    }
+                }catch (Exception e)
+                {
+                    Log.e(sLog,e.getMessage());
+                }
+            }else
+            {
+                readDate.setText("object가 null이야");
+            }
+        }
+
+        });
+
+        ajax.readAdaptionLocate(test,new AjaxCallback<JSONArray>()
+        {
+            @Override
+            public void callback(String url,JSONArray object,AjaxStatus status)
+            {
+                if(object !=null)
+                {
+                    try{
+                        if(object.length()!=0)
+                        {
+                            String rl=object.getJSONObject(0).toString();
+                            readLocate.setText(rl);
+
+                        }else
+                        {
+                            readLocate.setText("결과값이 없어.");
+                        }
+                    }catch (Exception e)
+                    {
+                        Log.e(sLog,e.getMessage());
+                    }
+                }else
+                {
+                    readLocate.setText("object가 null이야");
+                }
+            }
+        });
+
+        ajax.readAdaptionPrice(test,new AjaxCallback<JSONArray>()
+        {
+            @Override
+            public void callback(String url,JSONArray object,AjaxStatus status)
+            {
+                if(object !=null)
+                {
+                    try{
+                        if(object.length()!=0)
+                        {
+                            String rp=object.getJSONObject(0).toString();
+                            readPrice.setText(rp);
+
+                        }else
+                        {
+                            readPrice.setText("결과값이 없어.");
+                        }
+                    }catch (Exception e)
+                    {
+                        Log.e(sLog,e.getMessage());
+                    }
+                }else
+                {
+                    readPrice.setText("object가 null이야");
+                }
+            }
+        });
+
+        ajax.readAdaptionContext(test,new AjaxCallback<JSONArray>()
+        {
+            @Override
+            public void callback(String url,JSONArray object,AjaxStatus status)
+            {
+                if(object !=null)
+                {
+                    try{
+                        if(object.length()!=0)
+                        {
+                            String rc=object.getJSONObject(0).toString();
+                            readContext.setText(rc);
+
+                        }else
+                        {
+                            readContext.setText("결과값이 없어.");
+                        }
+                    }catch (Exception e)
+                    {
+                        Log.e(sLog,e.getMessage());
+                    }
+                }else
+                {
+                    readContext.setText("object가 null이야");
+                }
+            }
+        });
+    }
+}
+
+
+/*11월 8일 2:03  수정할점
+1.ajax.writeAdaption 사용시에 한글을 사용하면 데이터베이스에 저장이 안된다.
+2.상세내용 (Context) 가 추가가 안된다 아무래도 String을 사용해서?
+3.강아지 ID 받아오기를 아직 못함
+*/

@@ -1,0 +1,198 @@
+package com.gaetingdev.m.gaetingdev.Login;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
+import android.widget.TextView;
+
+import com.facebook.FacebookSdk;
+import com.facebook.Profile;
+import com.facebook.ProfileTracker;
+import com.gaetingdev.m.gaetingdev.Framework.DB.UseDB;
+import com.gaetingdev.m.gaetingdev.Main.LogoutNDrop;
+import com.gaetingdev.m.gaetingdev.R;
+import com.gaetingdev.m.gaetingdev.Register.SampleLoginActivity;
+import com.kakao.auth.ApiResponseCallback;
+import com.kakao.auth.AuthService;
+import com.kakao.auth.network.response.AccessTokenInfoResponse;
+import com.kakao.network.ErrorResult;
+import com.kakao.util.helper.log.Logger;
+
+import static java.lang.Boolean.FALSE;
+import static java.lang.Boolean.TRUE;
+
+/**
+ * Created by x-note on 2016-09-28.
+ */
+public class LoginTerminal extends Activity {
+
+    Handler handler;
+    int val = 0;
+    public static boolean next_flag = TRUE; // 로그인 기록 없음 다음 페이지 -> 로그인창 0929
+    UseDB db;
+
+    SharedPreferences pref;
+    SharedPreferences.Editor editor;
+
+    private static String TAG = "LoginTerminal.class";
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.splash_screen);
+
+        db = new UseDB(this);
+
+        Log.d(TAG, "LoginTerminal onCreate()");
+
+        //db 테스트용 로그인 타입 - 아이디
+        String login_type = db.getInfo("login_type");
+        db = new UseDB(this);
+        String id = db.getInfo("id");
+
+        TextView tv = (TextView)findViewById(R.id.id);
+        tv.setText(login_type + " - " + id);
+
+        // 3초 동안 스플래쉬 화면 보여줌 0928
+        handler = new Handler(){
+            public void handleMessage(Message msg){
+                val++;
+                if (val <= 3) {
+                    if (val == 1) {
+                        requestAccessTokenInfoKakao();
+                    }
+                    if (val == 2 && !next_flag) {
+                        requestAccessTokenInfoFacebook();
+                    }
+                    handler.sendEmptyMessageDelayed(0, 1000);
+                }
+                else if (val > 3){
+                    IntentActivity();
+                }
+            }
+        };
+        handler.sendEmptyMessage(0);
+
+    }
+
+//    //토큰상태 확인 0929
+//    public void IsOpen(){
+//        SharedPreferences pref = getSharedPreferences("setpreference", MODE_PRIVATE);
+//        int login_flag = pref.getInt("logintype", 0);
+//
+//        requestAccessTokenInfoKakao();
+//
+//        // 토큰검사, 프리퍼런스 검사->토큰 검사로 변경 필요
+//        if (login_flag == 0) {}
+//        else if (login_flag == 1) {
+//            next_flag = TRUE;
+//        }
+//        else if (login_flag == 2) {
+//            next_flag = TRUE;
+//
+//        }
+//        else {
+//            next_flag = FALSE;
+//        }
+//    }
+
+    //카톡 토큰검사 1001
+    private void requestAccessTokenInfoKakao() {
+        AuthService.requestAccessTokenInfo(new ApiResponseCallback<AccessTokenInfoResponse>() {
+            @Override
+            public void onSessionClosed(ErrorResult errorResult) {
+                Log.d("************KakaoToken", "SessionClosed");
+                next_flag = FALSE;
+            }
+
+            @Override
+            public void onNotSignedUp() {
+                // not happened
+                Log.d("************KakaoToken", "NotSignedUp");
+                next_flag = FALSE;
+            }
+
+            @Override
+            public void onFailure(ErrorResult errorResult) {
+                Logger.e("failed to get access token info. msg=" + errorResult);
+                Log.d("************KakaoToken", "Failed");
+                next_flag = FALSE;
+            }
+
+            @Override
+            public void onSuccess(AccessTokenInfoResponse accessTokenInfoResponse) {
+
+                SharedPreferences pref = getSharedPreferences("setpreference", MODE_PRIVATE);
+                SharedPreferences.Editor editor = pref.edit();
+                editor.putInt("logintype", 1); // 카카오톡
+                editor.commit();
+
+                long userId = accessTokenInfoResponse.getUserId();
+                Logger.d("this access token is for userId=" + userId);
+                Log.d("************KakaoToken", "Success");
+                next_flag = TRUE;
+            }
+        });
+    }
+
+    //페이스북 토큰검사 1001
+    private void requestAccessTokenInfoFacebook() {
+
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        ProfileTracker profileTracker = new ProfileTracker() {
+            @Override
+            protected void onCurrentProfileChanged(
+                    Profile oldProfile,
+                    Profile currentProfile) {
+                if (currentProfile != null) {
+                    SharedPreferences pref = getSharedPreferences("setpreference", MODE_PRIVATE);
+                    SharedPreferences.Editor editor = pref.edit();
+                    editor.putInt("logintype", 2); // 페이스북
+                    editor.commit();
+
+                    Log.d("************Profile ID", currentProfile.getId().toString());
+                    next_flag = TRUE;
+                }
+            }
+        };
+    }
+
+    // 다음 페이지를 불러옴 0929
+    public void IntentActivity() {
+        Intent intent;
+        if (next_flag)
+            intent = new Intent(LoginTerminal.this, LogoutNDrop.class);
+        else
+            intent = new Intent(LoginTerminal.this, SampleLoginActivity.class);
+
+        intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivityForResult(intent, 0);
+    }
+}
+
+/*
+**********************0930_update부분_김소연*************************
+*********************************************************************
+<layout>
+splash_screen, logout_and_drop
+
+<JAVA>
+LoginTerminal.class, LogoutNDrop
+KakaoSignupActivity.class // KakaoSignupActivity.requestMe.onSuccess() - SharedPreferences
+KakaoSignupActivity.redirectMainActivity() - 로그인 완료되면 로그아웃 테스트창으로 이동
+SampleLoginActivity.class // SampleLoginActivity.onCreate.onSuccess.onCompleted() - 로그인 성공시 인텐트를 메소드로 구성 (IntentMain)
+SampleLoginActivity.onCreate() - 자동로그인(checkLoginSession) 주석처리
+
+
+
+**********************1001_update부분_김소연*************************
+*********************************************************************
+requestAccessTokenInfoKakao - 카카오톡 토큰 검사 / IsOpen 제거 - 처리순서 문제로 토큰검사를 handler안에서 부르게 수정
+requestAccessTokenInfoKakao - 페이스북 토큰 검사
+<SQLite 구현>
+DBHelper, UseDB(사용법 적어놨습니다)
+ */

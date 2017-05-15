@@ -1,0 +1,306 @@
+[
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_kakao_webview.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\auth\\1.1.22\\res\\layout\\activity_kakao_webview.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pageinfo_main.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\pageinfo_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\personalmainpage.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\personalmainpage.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\conversation_main.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\conversation_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_smart_device_dialog_fragment.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\morepage.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\morepage.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_screen.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\splash_screen.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\matching_main.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\matching_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pageitem_main.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\pageitem_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainpage.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\mainpage.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\checkout.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\checkout.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\interbreed_main.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\interbreed_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_internal_login_activity.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.22\\res\\layout\\kakao_internal_login_activity.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pagefragment.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\pagefragment.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_common_kakao_login.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\layout_common_kakao_login.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\logout_and_drop.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\logout_and_drop.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\kakao_login_layout.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.kakao.sdk\\util\\1.1.22\\res\\layout\\kakao_login_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_test.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\fragment_test.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mainfragment.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\mainfragment.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\signupprocess_image.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\signupprocess_image.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adaption_main.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\src\\main\\res\\layout\\adaption_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "D:\\AndroidSvnworkspace\\Testsvnworkspa\\app\\build\\intermediates\\exploded-aar\\com.facebook.android\\facebook-android-sdk\\4.17.0\\res\\layout\\messenger_button_send_white_round.xml"
+    }
+]

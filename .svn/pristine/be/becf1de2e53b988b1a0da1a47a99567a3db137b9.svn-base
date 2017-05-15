@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    repositories {
+        mavenCentral()
+    }
+
+    defaultConfig {
+        applicationId "com.gaetingdev.m.gaetingdev"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+//    sourceSets{
+//        main{
+//            manifest.srcFile '/src/main/AndroidManifest.xml'
+//            java.srcDirs =
+//                    [
+//                        '/src/main/java', '.apt_generated'
+//                    ]
+//            assets.srcDirs=
+//                    [
+//                        '/src/main/assets'
+//                    ]
+//            res.srcDirs=
+//                    [
+//                        '/src/main/res/layout/main_layout',
+//                        '/src/main/res/layout',
+//                        '/src/main/res'
+//                    ]
+//
+//        }
+//    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+
+    //ajax 통신 사용하기 위해 필요.
+    compile 'com.googlecode.android-query:android-query:0.25.9'
+
+    //페이스북 통신 사용하기 위해 필요.
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+
+    // 카카오스토리, 카카오톡 sdk를 사용하기 위해 필요.
+    compile 'com.mcxiaoke.volley:library:1.0.8'
+    compile group: 'com.android.support', name: 'support-v4', version: '22.2.0'
+
+    // 카카오톡 sdk를 사용하기 위해 필요.
+    compile group: 'com.kakao.sdk', name: 'kakaostory', version: project.KAKAO_SDK_VERSION
+}
